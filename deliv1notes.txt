@@ -1,0 +1,48 @@
+--- Users ---
+
+House of 3 - Initially a whiteboard was bought in order to write down what food was purchased when in order to effecticely what our application is focused on. Quickly the whiteboard stopped being used and currently is unused at all. Currently the system the user uses is memory and checking the look and smell of the food. Waste is not common but happens around monthly.
+
+House of 4 - Buys a lot of food for household due to the number of people. There is no system for tracking food - esspecially produce. Food goes to waste due to the quanitity and amount of people. Household often has lots of waste
+
+House of 1 - This user does employ any method other than memory. As this is one user in the house and largely only has to feed themself and is middle aged so is practiced in food management and very rarely has waste.
+
+--- Problem ---
+
+The problem is that often food that is kept in a household will be forgotten, other food prioritiezes, and ultimately going to waste. This results in wasted food and in extreme cases a biohazard.
+https://www.fda.gov/food/consumers/tips-reduce-food-waste
+
+-- Personas --
+
+Organic Focused People - 
+Organic food goes bad faster than junk food.
+Vegans, Vegetarians, Healthy Eaters (Portland), CSA Users
+
+Multipeople Households - 
+Many people adds considerable variation to food consumption
+Parents, students, roommates, partners
+
+-- Use Case --
+
+A parent of the household goes shopping, purchases what the kids normally eat for breakfast and more; say yogurt, ceral, and milk among other groceries. The parent then logs the food into the application noting the food and date added which defaults to the current time and day. The week goes by and the children of the household eat the ceral, but are going through a phase where they don't want the yogurt. The yogurt is not only sealed in a container so cannot be easily checked visably but live in a drawer in the bottom of the fridge for ease of access from the children, for who the yogurt was bought. The yogurt is nearing the end of it's life and the application then reflects this, showing the yogurt as a high priority among other food. Because of this the yogurt is then consumed preventing food waste that would have otherwise gone unnoticed.
+
+-- Related Products --
+
+The government provided application foodkeeper:
+https://www.foodsafety.gov/keep-food-safe/foodkeeper-app
+- Reminders are placed into the users calender which diversifies the location for reminders and forces the use of multiple applications and devices
+- Has diverse interests such as general food saftey and guides allowing for user confusion
+
+http://kitchenpalapp.com/en/
+Subscription based system leads to food waste as loss of users over time
+  
+-- Comparing --
+
+This application is focused purely on food waste which means no distractions such as other guides, and calander reminders. This focus allows for increased awareness of food expiration optimizing food waste reduction. Often with households many people are working and have personal calanders allowing for external reminders to easily go unnoticed. Often there will not be as much personal bandwidth to learn a new app with many irrelevant features such as guides they would already know or annoucements and similar noise.
+
+-- Design --
+
+
+
+-- Feasibility --
+
+ 
