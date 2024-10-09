@@ -1,0 +1,18 @@
+good1 - levin
+
+There are several components - the top will have categories of common food types such as Grains, Meat, Fruit, Vegitables, and so on. The side bar will have "Relevant Text" which could be a blerb about your inventory followed by some graphics such as distrobution of food that you have, the spread of food and close to expiring, and so on. The main page itself will have the food itself sorted by how close it is to expiring with a quick delete option.
+
+good2 - harware v1 keem
+
+This prototype is a mobile app that will have food icons with descriptions of the food and a large icon to tell how close it is to expiring. There is a pop out menu as well in order to easily access some options you will occasionally need such as account settings, adding items, and so on.
+
+Usability Goals
+
+Goal 1: Easily add food items
+Present potential users with multiple simple prototypes and see what placement of an add option is best. Addings food is one of the two core functions that the user will need to interact with as you cannot track your food if you food is not in the system.
+
+Goal 2: Easily remove food items
+Present potential users with multiple simple prototypes and see what placement of a remove option is best. An X on the food item, an internal menu, a swipe motion, and so on. Removing food is the second core function that the user will need to interact with as you cannot use a system to handle your food if you cannot remove it once you eat it, cook with it, or throw it away.
+
+Goal 3: Easily tell expiration of food
+Present potential users with multiple simple prototypes and see what presentation of expiration of food stored in the system is best parced by the user. The purpose of this system is for the user to do exactly this, so this is a key feature of the system.
