@@ -33,5 +33,119 @@
 <a href="deliverable2.html" title="D2" class="button">Deliverable 2</a>
 <a href="https://github.com/lwneumann/CS580-HCI-FoodStorage" title="D2" class="button">High fidelity prototype</a>
 
+<div>
+  <h1>Criteria to Add to the Website</h1>
+
+  <h2>Prototype</h2>
+  <p>
+    For our Prototype we will be developing the front-end using HTML & CSS leveraging the Flask mini-framework to display a task manager style list that will be organized by the items closest to perishing. 
+    We will also assign colors of green, yellow, orange, and red to indicate how close items are to perishing. This will be backed by a python application that will take the inputted grocery items, assign a shelf life to these items, and rank order them by their proximity to expiration. This back-end will be integrated with WHO resources on the shelf life of various food items to determine the shelf-life of produce and other perishable food items.
+  </p>
+
+  <h2>User Manual</h2>
+  <ol>
+    <li>To begin using our application please clone our GitHub repository to your local device and run the application in your editor of choice.</li>
+    <li>Once running, please navigate to the URL the application will provide for you.</li>
+    <li>Now that we are at the homepage we will use the search bar in the middle-right portion of the screen to add your desired items to the list.</li>
+    <li>Please note that the items will change color based on the scale listed in the top-right side of the screen, based on their proximity to expiration.</li>
+    <li>If you eat any food item or throw an item out, you may use the red “X” button on the top-right of the food item to get rid of that item.</li>
+  </ol>
+
+  <h2>User Population</h2>
+  <p>The User population is anyone with a functioning fridge that can locally host our application. This will include older individuals who are not as tech savvy, and younger more technically knowledgeable users.</p>
+
+  <h2>Usability Goals</h2>
+  <ul>
+    <li>Have an average time of input of under 15 seconds per item when being entered in our application and;</li>
+    <li>100% accuracy of their interpretation of the ranked order, expiration list.</li>
+  </ul>
+
+  <h2>Usability Testing Goals</h2>
+  <ul>
+    <li><strong>How many examiners are required?</strong> Just 1</li>
+    <li><strong>What equipment will the examiners need?</strong> One working computer</li>
+    <li><strong>How should your prototype be handled? (manual/documentation)</strong> This will be handled manually by participants or subjects and documented by our examiners.</li>
+    <li><strong>How will you instruct your subjects to proceed?</strong> We will have written instructions and the subjects will be prompted to go through these instructions by our examiners.</li>
+    <li><strong>How should the examiners treat the test subjects, what should they tell them?</strong> They should follow the script below and not influence or lead subjects in any way to select answers.</li>
+    <li><strong>What should the examiners avoid doing?</strong> Any leading questions</li>
+    <li><strong>What should the examiners avoid telling the test subjects?</strong> Examiners are there to read the script and answer questions as minimally as possible. We want our subjects to be informed but not primed to make certain decisions.</li>
+    <li><strong>What/How/When should the examiners measure?</strong> We will measure the time to input groceries. We will also measure the accuracy of the subjects.</li>
+  </ul>
+
+  <h3>Usability Evaluation Plan (Script for Study)</h3>
+  <p>
+    Thank you for helping with testing our prototype. Today we will be walking you through how to set up and use our food waste elimination application.
+    <br><br>
+    To begin we will select our groceries that we would like to enter in the application. Please type in the food items that you have ‘purchased’. The purchased items you will be looking to add will be milk, butter, cheese of your choice, banana, and kefir. Once you have entered your desired groceries please remove any two of your choosing from the list.
+    <br><br>
+    [NOTE TO RESEARCHERS: keep track of the time it takes for the subjects to input five grocery items using a stopwatch]
+    <br><br>
+    Please tell us which of these items you believe will perish the soonest. Please also tell us how much time you believe each of these five items have until they expire.
+    <br><br>
+    [NOTE TO RESEARCHERS: keep track of the accuracy of subjects interpretation of the ranked ordered, expiration list.]
+  </p>
+
+  <h2>Results and Analysis</h2>
+  <table border="1">
+    <tr>
+      <th>Subject</th>
+      <th>Entry time (s)</th>
+      <th>How did they interpret the list?</th>
+      <th>Comments</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>10s</td>
+      <td>No Errors</td>
+      <td>Tooltips or additional guidance. Maybe a video walkthrough to introduce usage concepts.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>7s</td>
+      <td>No Errors</td>
+      <td>A little more robust user interface with clearer instructions for where/how to add new items would help, but it's straightforward and overall a good user interface! Might also be good to add unobtrusive popups confirming when an item is deleted and/or added. Great job!</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3s</td>
+      <td>No Errors</td>
+      <td>The gradients need to go. The entire box with a food item should be the click target when adding a food. For items like unopened cheese, it might be useful to add a secondary expiration for after that item has been opened.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5s</td>
+      <td>No Errors</td>
+      <td>I'd use a component framework it will fix a lot usability issues for free. Largely I like the idea and I think you chose the right amount of features. Having the ability to delete everything or to filter the list by expired, expiring soon, and date.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>8s</td>
+      <td>No Errors</td>
+      <td>N/A</td>
+    </tr>
+  </table>
+
+  <h2>Analysis of Results</h2>
+  <p>Our feedback was largely geared towards UI/UX updates. While we did hit our usability goal targets, within the time to add items and accuracy of the interpretations of the list, we seem to have missed the mark in other areas and identified some new usability goals. Future development opportunities that were identified include:</p>
+  <ul>
+    <li>Adding a tooltip/clear instructions to identify where users should add their new food item to the virtual fridge</li>
+    <li>Adding popups to confirm whether a user would like to add or delete an item</li>
+    <li>Trading out the gradients for consistent coloring</li>
+    <li>Making the entire box clickable when adding an item</li>
+    <li>Potentially adding a secondary expiration date for when items have been opened such as cheese</li>
+    <li>Using a component framework to assist with usability (programming related feedback)</li>
+    <li>Having a delete all function for the items in the fridge</li>
+    <li>Providing more filtering options</li>
+  </ul>
+
+  <h2>Additional Development Opportunities</h2>
+  <ul>
+    <li>Adding a feature for when food has been eaten</li>
+    <li>This would allow us to track food waste that has been saved by the application</li>
+    <li>Could lead to better pairing with the FDA or WHO if the application were to continue development</li>
+  </ul>
+</div>
+
+    
 </body>
 </html>
